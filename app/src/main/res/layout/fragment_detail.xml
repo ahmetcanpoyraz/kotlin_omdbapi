@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="selectedMovie"
+            type="com.example.kotlin_omdbapi2.model.MovieResults" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.detail.DetailFragment">
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/detailImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:downloadUrl="@{selectedMovie.poster}"
+                android:scaleType="fitCenter"
+                android:minHeight="200dp">
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/detailName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{selectedMovie.title}"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/detailRelaeseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{selectedMovie.year}"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/detailMetacriticRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{selectedMovie.type}"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+
+
+
+    </LinearLayout>
+</layout>
