@@ -5,7 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlin_omdbapi2.R
-import com.example.kotlin_omdbapi2.ui.bottomNavigationBar.BottomNavigationBarActivity
+import com.example.kotlin_omdbapi2.ui.auth.AuthActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
@@ -21,7 +21,8 @@ class SplashActivity : AppCompatActivity() {
                 } catch (e: InterruptedException) {
                     e.printStackTrace()
                 } finally {
-                    val intent = Intent(this@SplashActivity, BottomNavigationBarActivity::class.java)
+                   // val intent = Intent(this@SplashActivity, BottomNavigationBarActivity::class.java)
+                    val intent = Intent(this@SplashActivity, AuthActivity::class.java)
                     startActivity(intent)
                     finish()
                 }

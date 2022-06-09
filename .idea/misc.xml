@@ -6,13 +6,20 @@
         <entry key="app/src/main/res/drawable/border.xml" value="0.25743589743589745" />
         <entry key="app/src/main/res/drawable/border2.xml" value="0.2598958333333333" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.25743589743589745" />
+        <entry key="app/src/main/res/drawable/edittextbackground.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.3536458333333333" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.3234375" />
         <entry key="app/src/main/res/layout/activity_bottom_navigation_bar.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.309375" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.3234375" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.3375" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.22509057971014493" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2" />
         <entry key="app/src/main/res/layout/item_movie.xml" value="0.1503623188405797" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.2453125" />
       </map>
