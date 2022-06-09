@@ -45,6 +45,7 @@ class HomeFragment : Fragment() {
 
             viewModel.refreshFromAPI(editTextSearch.text.toString())
             swipeRefreshLayout.isRefreshing = false
+            movieLoading.visibility = View.GONE
         }
 
         movieError.visibility = View.GONE
